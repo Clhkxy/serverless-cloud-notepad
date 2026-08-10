@@ -23,7 +23,7 @@ jobs:
             exit 1
           fi
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Check if <NOTES_KV_BINDING_ID> and <SHARE_KV_BINDING_ID> exist
         id: check_wrangler_toml
         run: |
